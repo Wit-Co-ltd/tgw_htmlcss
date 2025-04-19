@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レスポンシブデザイン</title>
+    <style>
+        .box {
+            width: 80%;
+            margin: auto;
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .box {
+                background-color: lightcoral;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">画面幅によって色とサイズが変わります</div>
+</body>
+</html>
