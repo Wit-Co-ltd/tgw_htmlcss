@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.header {
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+}

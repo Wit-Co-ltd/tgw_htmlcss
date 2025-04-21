@@ -1,0 +1,7 @@
+.navbar a {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: lightblue;
+}

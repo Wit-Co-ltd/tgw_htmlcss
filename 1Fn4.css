@@ -1,0 +1,26 @@
+.box {
+    width: 100%;
+    height: 150px;
+    background-color: lightgray;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        max-width: 600px;
+        background-color: darkgray;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.item {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
