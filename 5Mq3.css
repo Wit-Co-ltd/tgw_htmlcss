@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.header {
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.navbar a {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: lightblue;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.grid-item {
+    animation: fadeIn 1s ease-in;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
